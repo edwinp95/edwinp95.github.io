@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="styles/tables.css" rel="stylesheet" type="text/css" >
+	<title>Edwin Whalen, ITIS3135, Tables</title>
+</head>
+
+<body>
+	<header>
+			<h1>Edwin Whalen >> ITIS3135</h1>
+	</header>
+	<nav>
+		<a href="introduction.html">Introduction</a> 
+        ||
+		<a href="contract.html">Contract</a>
+		||
+		<a href="forms.html">Forms</a>
+	</nav>	
+	
+	<main>
+	
+		<h2>HTML Tables</h2>
+		<h3>Tabular Data</h3>
+		
+		<ol>
+			<li>Puja Sauvage 		Sauvage@gmail.com		4</li>
+			<li>Þórunn Mateev		Mateev@gmail.com		1</li>	
+			<li>Arianna Simonis		Simonis@gmail.com		50</li>	
+			<li>Apollonia Aldana	Aldana@gmail.com		20</li>
+			<li>Lene Michelakos		Michelakos@gmail.com	5</li>
+			<li>Ivo Robson			Robson@gmail.com		5</li>
+			<li>Ulf Grabowski		Grabowski@gmail.com		1</li>	
+		</ol>
+		
+		
+		<h3>Employee Data in Simple Table</h3>
+		
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Years of Service</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Puja Sauvage</td>
+					<td>Sauvage@gmail.com</td>
+					<td class="right">4</td>
+				</tr>
+				<tr>
+					<td>Þórunn Mateev</td>
+					<td>Mateev@gmail.com</td>
+					<td class="right">1</td>
+				</tr>
+				<tr>
+					<td>Arianna Simonis</td>
+					<td>Simonis@gmail.com</td>
+					<td class="right">50</td>
+				</tr>
+				<tr>
+					<td>Apollonia Aldana</td>
+					<td>Aldana@gmail.com</td>
+					<td class="right">20</td>
+				</tr>
+				<tr>
+					<td>Lene Michelakos</td>
+					<td>Michelakos@gmail.com</td>
+					<td class="right">5</td>
+				</tr>
+				<tr>
+					<td>Ivo Robson</td>
+					<td>Robson@gmail.com</td>
+					<td class="right">5</td>
+				</tr>
+				<tr>
+					<td>Ulf Grabowski</td>
+					<td>Grabowski@gmail.com</td>
+					<td class="right">1</td>
+				</tr>	
+			</tbody>
+		</table>
+		
+		<h3>Employee Data in Complex Table</h3>
+		<figure>
+			<table>
+				<thead>
+					<tr>
+						<th>Role</th>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Years of Service</th>
+						<th>Monthly Salary</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Sales</td>
+						<td>Puja Sauvage</td>
+						<td>Sauvage@gmail.com</td>
+						<td class="right">4</td>
+						<td class="right">$3,000</td>
+					</tr>
+					<tr>
+						<td>Marketing</td>
+						<td>Þórunn Mateev</td>
+						<td>Mateev@gmail.com</td>
+						<td class="right">1</td>
+						<td class="right">$2,000</td>
+					</tr>
+					<tr>
+						<td>Sales</td>
+						<td rowspan="2">Arianna Simonis</td>
+						<td rowspan="2">Simonis@gmail.com</td>
+						<td rowspan="2" class = "right">50</td>
+						<td rowspan="2" class = "right">$8,000</td>
+					</tr>
+					<tr>
+						<td>Marketing</td>
+					</tr>
+					<tr>
+						<td>Sales</td>
+						<td>Apollonia Aldana</td>
+						<td>Aldana@gmail.com</td>
+						<<td class="right">20</td>
+						<td class="right">$8,000</td>
+					</tr>
+					<tr>
+						<td>Service</td>
+						<td>Lene Michelakos</td>
+						<td>Michelakos@gmail.com</td>
+						<td class="right">5</td>
+						<td class="right">$3,000</td>
+					</tr>
+					<tr>
+						<td>Service</td>
+						<td>Ivo Robson</td>
+						<td>Robson@gmail.com</td>
+						<td class="right">5</td>
+						<td class="right">$3,000</td>
+					</tr>
+					<tr>
+						<td>Marketing</td>
+						<td rowspan="2">Ulf Grabowski</td>
+						<td rowspan="2">Grabowski@gmail.com</td>
+						<td rowspan="2" class = "right">1</td>
+						<td rowspan="2" class = "right">$2,000</td>
+					</tr>
+					<tr>
+						<td>Service</td>
+					</tr>
+					<tr>
+						<th colspan="3">Total Years of Service</th>
+						<td class="right">86</td>
+						<td class="right">$29,000</td>
+					</tr>
+				</tbody>
+			</table>
+			<figcaption>Employee Data</figcaption>
+		</figure>
+	</main>
+	
+	<footer>
+		<br/>
+		<nav>
+		    <a href="http://webpages.uncc.edu/ewhalen/" target="_blank">Charlotte.edu</a> &#9553;
+		    <a href="https://github.com/edwinp95" target="_blank">Github</a> &#9553;
+		    <a href="https://edwinp95.github.io/" target="_blank">Github.io</a> &#9553;
+		    <a href="https://edwinp95.github.io/itis3135/" target="_blank">ITIS 3135 Github Page</a> &#9553;
+		    <a href="https://www.freecodecamp.org/ewhalen" target="_blank">freeCodeCamp</a> &#9553;
+
+		</nav>
+		<br />
+		<p>
+			Page built by YoMomma Corp.
+		</p>
+		<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fewhalen%2Fitis3135%2Ftables.html">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+		</a>
+
+		<a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fewhalen%2Fitis3135%2Ftables.html&profile=css3svg&usermedium=all&warning=1&vextwarning=
+">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+		</a>
+	
+	</footer>
+
+</body>
+
+</html>

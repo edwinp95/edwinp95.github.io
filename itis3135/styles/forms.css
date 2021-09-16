@@ -1,0 +1,70 @@
+header, footer {
+	text-align : center;
+	color : black;
+	font-weight : bold;
+}
+
+body {
+	margin-left: 75px;
+    margin-right: 75px;
+	background-color: lightblue;
+}
+
+nav {
+	text-align : center;
+}
+
+thead {
+	background-color: #f5c71a; 
+}
+
+th, td {
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+}
+
+figure {
+	margin: 0;
+	
+}
+
+.right{
+	text-align: right;
+}
+
+button {
+	position: relative;
+	margin: 5px;
+	background-color: yellow;
+	color: black;
+	animation-name: move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {   
+      left: 0px;
+    }
+	
+    50% {    
+      left: 15px;
+    }
+	
+    100% {
+      left: 0px;
+    }
+  }
+
+input[type=text] {
+	background-color: yellow;
+	border: 2px solid black;
+	margin: 0px 0px 5px 0px;
+}	
+
+input[type=email] {
+	background-color: yellow;
+	border: 2px solid black;
+	margin: 0px 0px 5px 0px;
+}	
+

@@ -1,0 +1,7 @@
+Sales			Puja Sauvage 		Sauvage@gmail.com		4	3000
+Marketing		Þórunn Mateev		Mateev@gmail.com		1	2000
+Sales/Marketing	Arianna Simonis		Simonis@gmail.com		50	8000
+Sales			Apollonia Aldana	Aldana@gmail.com		20	8000
+Service			Lene Michelakos		Michelakos@gmail.com	5	3000
+Service			Ivo Robson			Robson@gmail.com		5	3000
+Marketing/Service		Ulf Grabowski		Grabowski@gmail.com		1	2000

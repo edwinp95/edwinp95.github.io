@@ -1,0 +1,46 @@
+header, footer {
+	text-align : center;
+	color : black;
+	font-weight : bold;
+}
+
+body {
+	margin-left: 75px;
+    margin-right: 75px;
+	background-color: lightblue;
+}
+
+ol {
+	
+}
+nav {
+	text-align : center;
+}
+
+thead {
+	background-color: #f5c71a; 
+}
+
+th, td {
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+}
+
+figure {
+	margin: 0;
+	
+}
+table tr:nth-child(even) {
+	background-color: #e3ff00;
+	text-color: black; 
+}
+
+figcaption {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}

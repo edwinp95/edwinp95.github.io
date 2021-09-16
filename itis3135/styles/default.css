@@ -1,0 +1,28 @@
+header, footer {
+	text-align : center;
+	color : black;
+	font-weight : bold;
+}
+
+body {
+	margin-left: 75px;
+    margin-right: 75px;
+	background-color: lightblue;
+}
+
+.smaller-image {
+	width: 300px;
+	height: 500px;
+}
+
+h2 {
+	text-align : center;
+}
+
+figure {
+	text-align : center;
+}
+
+nav {
+	text-align : center;
+}
