@@ -10,9 +10,6 @@ body {
 	background-color: lightblue;
 }
 
-ol {
-	
-}
 nav {
 	text-align : center;
 }
@@ -32,7 +29,7 @@ figure {
 }
 table tr:nth-child(even) {
 	background-color: #e3ff00;
-	text-color: black; 
+	color: black; 
 }
 
 figcaption {
