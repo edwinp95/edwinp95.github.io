@@ -1,28 +1,29 @@
 header, footer {
 	text-align : center;
-	color : black;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color : #E9C46A;
 	font-weight : bold;
 }
 
 body {
 	margin-left: 75px;
     margin-right: 75px;
-	background-color: lightblue;
+	background-color: #264653;
 }
 
+main{
+	color:#2A9D8F;
+}
 .smaller-image {
 	width: 300px;
 	height: 500px;
 }
 
-h2 {
+nav, figure, h2, h3 {
 	text-align : center;
 }
 
-figure {
-	text-align : center;
-}
-
-nav {
-	text-align : center;
+a{
+	color: #F4A261;
+	text-decoration: none;
 }
