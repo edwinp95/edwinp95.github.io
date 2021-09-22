@@ -4,29 +4,37 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Eager Wolf Enterprises</title>
-    <!--https://coolors.co/393e41-d3d0cb-e2c044-587b7f-1e2019-->
+    <!--https://coolors.co/463f3a-968d88-bcb8b1-->
     <style type="text/css">
+        html{
+            background: rgb(70,63,58);
+            background: linear-gradient(180deg, rgba(70,63,58,1) 50%, rgba(70,63,58,.8) 100%);
+            width: 100%;
+            height: 100%;
+        }
         h1, h2 {
-            color: #d3d0cb;
+            color: white;
             text-align: center;
         }
-        body{
-            background-color: #393e41;
-            font-family: Copperplate, Papyrus, fantasy;
+        body{     
+            color: #bcb8b1;    
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+            text-shadow: .5px .5px 1.5px black;
         }
-        img{
+        #wolf-icon{
             width: 65px;
             height: auto;
-            padding-top:20px;
         }
         #container{
             display:flex;
+            border-bottom: 1px solid black;
         }
 
         #wolf{
             margin-right: 20px;
             display: flex;
-            flex-basis: 20%;
+            flex-basis: 25%;
             align-items: center;
             justify-content: center;
         }
@@ -39,14 +47,15 @@
         }
 
         #about{
+            color: #d3d0cb;
             display: flex;
-            flex-basis: 30%;
+            flex-basis: 25%;
             align-items: center;
             justify-content: center;
         }
         
         p {
-            color: #e2c044;
+            color: #968d88;
             text-align: justify;
         }
 
@@ -56,11 +65,21 @@
         }
 
         #footer{
-            color: #1e2019;
+            text-align: center;
+            color: black;
         }
 
+        a{
+            color: white;
+            margin: 5px;
+        }
         a:hover{
             color: black;
+        }
+
+        #verification{
+            display: flex;
+            justify-content: center;        
         }
     </style>
 </head>
@@ -69,30 +88,30 @@
     <header>
         <nav>
             <div id="container">
-                <div id="wolf"><img src="images/wolf-wolf-org.png" alt="Wolf Icon"></div>
-                <div id="brand"><h1>Eager Wolf Enterprises</h1></div>
+                <div id="wolf"><img src="images/wolf-wolf-org.png" alt="Wolf Icon" id="wolf-icon"></div>
+                <div id="brand"><h1><strong>Eager Wolf Enterprises</strong></h1></div>
                 <div id="about"><a href="#">Schedule</a></div>
             </div>
         </nav>
     </header>
 
     <main>
-        <h2>Brand Page</h2>
+        <h2>About</h2>
         <P>This company is absolutely off the chain. We here at eager wolf enterprises we innovate the medical field. We have come up with the latest technology to offer the best care available.</P>
 
         <p><br>
             Amazing things about our company!
         </p>
         <ul>
-            <li>We have the most friendly staff!</li>
-            <li>We have over 10 locations!</li>
+            <li>Friendly staff!</li>
+            <li>Over 10 locations!</li>
             <li>State of the art equipment</li>
             <li>Affordable prices/plans.</li>
             <li>Free consultations!</li>
         </ul>
 
         <p>
-            We would love to help you with any of your needs! Contact us at <strong><u>704-234-5678</u></strong>!
+            We would love to help you with any of your needs! Contact us at <i><strong><u>704-234-5678</u></strong></i>!
         </p>
     </main>
 
@@ -100,12 +119,13 @@
         <p id="footer">
 			Page built by Eager Wolf Enterprises
 		</p>
-		<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fewhalen%2Fitis3135%2Findex.html">
+        <div id="verification"><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fewhalen%2Fitis3135%2Findex.html">
 			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
 		</a>
 
-		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fewhalen%2Fitis3135%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fewhalen%2Fitis3135%2Fbrand-eager-wolf.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
 			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
-		</a>
+		</a></div>
+		
     </footer>
 </body>
