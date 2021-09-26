@@ -18,6 +18,7 @@ body {
 main{
 	color:#39b9aa;
 }
+
 .smaller-image {
 	width: 300px;
 	height: 500px;
@@ -31,3 +32,4 @@ a{
 	color: #F4A261;
 	text-decoration: none;
 }
+
