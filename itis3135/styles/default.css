@@ -3,16 +3,20 @@ header, footer {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	color : #E9C46A;
 	font-weight : bold;
+
 }
 
 body {
 	margin-left: 75px;
     margin-right: 75px;
 	background-color: #264653;
+	text-shadow: .5px .5px 1.5px black;
+	font-size: 20px;
+
 }
 
 main{
-	color:#2A9D8F;
+	color:#39b9aa;
 }
 .smaller-image {
 	width: 300px;
