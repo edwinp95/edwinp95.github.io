@@ -22,6 +22,11 @@
             display:flex;
             border-bottom: 1px solid black;
         }
+        #container2{
+            display:flex;
+            border-bottom: 1px solid black;
+            justify-content: center;
+        }
 
         #wolf{
             margin-right: 20px;
@@ -72,4 +77,16 @@
         #verification{
             display: flex;
             justify-content: center;        
+        }
+
+        button{
+            margin: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #freeSpace{
+            border-bottom: 1px solid black; 
+            text-align: center;
+            margin: 5px;
         }
