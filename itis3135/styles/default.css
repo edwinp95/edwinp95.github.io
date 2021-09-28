@@ -9,7 +9,8 @@ header, footer {
 body {
 	margin-left: 75px;
     margin-right: 75px;
-	background-color: #264653;
+	background: rgb(55,100,119);
+	background: linear-gradient(180deg, rgba(38,70,83,1) 60%, rgba(55,100,119,1) 100%);
 	text-shadow: .5px .5px 1.5px black;
 	font-size: 20px;
 
