@@ -27,6 +27,8 @@ main{
 .smaller-image {
 	width: auto;
 	height: 500px;
+	border-radius: 12px;
+	box-shadow: 1px 1px 2px 1px black;
 }
 
 nav, figure, h2, h3 {
