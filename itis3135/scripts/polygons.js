@@ -1,42 +1,45 @@
-function getShape(num) {
-    switch(num){
+var entry;
+
+function getEntry() {
+    do {
+        entry = prompt("Which polygon do you desire? (1 - 10)", 1);
+        entry = Math.abs(entry);
+        entry = Math.round(entry);
+    }
+    while (validateEntry());
+    alert("That is a " + getShape() + "!");
+}
+
+function getShape() {
+    switch(entry){
         case 1:
             return "Henagon";
-            break;
         case 2:
             return "Digon";
-            break;
         case 3:
             return "Trigon";
-            break;   
         case 4:
             return "Tetragon";
-            break;
         case 5:
             return "Pentagon";
-            break;
         case 6:
             return "Hexagon";
-            break;
         case 7:
             return "Heptagon";
-            break;
         case 8:
             return "Octagon";
-            break;   
         case 9:
             return "Enneagon";
-            break;
         case 10:
             return "Decagon";
-            break;
     }
 }
 
-function validateEntry(entry) {
-
-}
-
-function getEntry() {
-    prompt("Which polygon do you desire? (1 - 10)", 1);
+function validateEntry() {
+    if(isNaN(entry) || entry > 10 || entry < 1){
+        alert("Invalid entry. Please enter a number 1 - 10");
+        return true;    
+    }else{
+        return false;
+    }
 }
