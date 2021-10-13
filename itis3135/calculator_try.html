@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="styles/default.css" rel="stylesheet" type="text/css" >
-	<script src="scripts/calculator_try.js"></script>
 	<title>Calculator</title>
 </head>
 
@@ -11,6 +10,7 @@
 	<header>
         <h1>Edwin Whalen -- ITIS3135</h1>
     </header>
+
 	<nav>
 		<a href="introduction.html">Introduction</a> 
         ||
@@ -25,32 +25,32 @@
         <a href="polygons.html">Polygons</a>
 		||
 		<a href="calculator_try.html">Calculator</a>
-
 	</nav>
+
+
 	<div id="container">
 		<div id="display"></div>
-		
-			<button class="button" onclick="getNum1()">1</button>
-			<button class="button" onclick="getNum2()">2</button>
-			<button class="button" onclick="getNum3()">3</button>
-			<button class="button" onclick="getNum1()">+</button>
-			<button class="button" onclick="getNum4()">4</button>
-			<button class="button" onclick="getNum5()">5</button>
-			<button class="button" onclick="getNum6()">6</button>
-			<button class="button" onclick="getNum1()">-</button>
-			<button class="button" onclick="getNum7()">7</button>
-			<button class="button" onclick="getNum8()">8</button>
-			<button class="button" onclick="getNum9()">9</button>
-			<button class="button" onclick="getNum1()">*</button>
-			<button class="button" onclick="emptyResult()">C</button>
-			<button class="button" onclick="getNum0()">0</button>
-			<button id="equal" class="button" onclick="getNum1()">=</button>
-			<button class="button" onclick="getNum1()">/</button>
-		
+		<div class="buttons">
+			<div class="button">1</div>
+			<div class="button">2</div>
+			<div class="button">3</div>
+			<div class="button">+</div>
+			<div class="button">4</div>
+			<div class="button">5</div>
+			<div class="button">6</div>
+			<div class="button">-</div>
+			<div class="button">7</div>
+			<div class="button">8</div>
+			<div class="button">9</div>
+			<div class="button">*</div>
+			<div class="button">C</div>
+			<div class="button">0</div>
+			<div id="equal" class="button">=</div>
+			<div class="button">/</div>
+		</div>	
 	</div>
 
-
-
+	
     <footer>
 		<br/>
 		<nav>
@@ -74,5 +74,5 @@
 		</a>
 	
 	</footer>
-
+	<script src="scripts/calculator_try.js"></script>
 </body>
