@@ -61,19 +61,41 @@ figcaption {
 	text-align: center;
 }
 
-.right{
-	text-align: right;
+.right, .left{
+	text-align: center;
 }
 
 #container{
-	display: flex;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows:  20% 20% 20% 20% 20%;
 	background-color: black;
 	height: 500px;
-	width: 100%;
+	width: 35%;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px 5px black;
 }
-#button{
-	display: flex;
-	background-color: white;
-	height: 20px;
-	width: 20px;
+#display{
+	grid-column: 1/5;
+	width: 100%;
+	background: #39b9aa;
+	border: 1px solid black;
+	text-align:right;
+	line-height:500%;
+}
+.button{
+	background: #39b9aa;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 20px;
+}
+
+#equal{
+	background-color: #E9C46A;
+}
+
+.button:hover{
+	background-color: black;
+	color: white;
+	transition: .5s ease-in-out;
 }
