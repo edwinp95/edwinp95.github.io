@@ -111,3 +111,41 @@ figcaption {
 	color: white;
 	transition: .2s ease-in-out;
 }
+
+.dropbtn {
+	background-color: #E9C46A;
+	color: black;
+	padding: 16px;
+	font-size: 18px;
+	border: none;
+	width: 120px;
+	text-shadow: .5px .5px .5px black;
+  }
+
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	width: 120px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	font-size: 18px;
+	text-shadow: .25px .25px .5px black;
+
+  }
+
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown-content a:hover {background-color: #ddd;}
