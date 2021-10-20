@@ -46,13 +46,13 @@ th, td {
 }
 
 table tr:nth-child(even) {
-	background-color: #e3ff00;
+	background-color: #F4A261;
 	color: black; 
 }
 
 thead {
 	color: black;
-	background-color: #f5c71a; 
+	background-color: #F4A261; 
 }
 
 figcaption {
@@ -116,7 +116,7 @@ figcaption {
 	background-color: #E9C46A;
 	color: black;
 	padding: 16px;
-	font-size: 18px;
+	font-size: 16px;
 	border: none;
 	width: 120px;
 	text-shadow: .5px .5px .5px black;
@@ -134,7 +134,7 @@ figcaption {
 	width: 120px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	font-size: 18px;
+	font-size: 16px;
 	text-shadow: .25px .25px .5px black;
 
   }
@@ -150,6 +150,10 @@ figcaption {
 
   .dropdown-content a:hover {background-color: #ddd;}
 
-  #results{
+  #results h2, p{
 	  text-align: center;
   }
+  
+  #results_table{
+	margin: 0 auto 0 auto;
+}
