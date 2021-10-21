@@ -34,28 +34,29 @@
 		<h2>Arrays</h2>
 		
 	
-        <div style="text-align: center; margin: 20px;">
+        <div style= "margin:20px;">
             <button onclick="addSalary()">Add Salary</button>
             <button onclick="displayResults()">Display Results</button>
             <button onclick="displaySalary()">Display Salary</button>
         </div>
 
-        <div class="dropdown">
-            <button class="dropbtn">Employees</button>
-            <div class="dropdown-content">
-              <a href="#"">Will Bettleheim</a>
-              <a href="#">Joe Goldberg</a>
-              <a href="#">Beck S.</a>
-              <a href="#">Love Quinn</a>
-            </div>
-        </div>
-        <div class = "selected_name">
 
+        <select id="employee-name">
+            <option>Select Employee: </option>
+            <option value="Will Bettleheim">Will Bettleheim</option>
+            <option value="Joe Goldberg">Joe Goldberg</option>
+            <option value="Beck S.">Beck S.</option>
+            <option value="Love Quinn">Love Quinn</option>
+        </select> 
+        <button onclick="getEmployee()">OK</button>
+        <div class="result">Salary: </div>
+       
+    
         <div id="results">
             <h2>Average</h2>
-            <p id="average">N/A</p>
+            <p id="average">$0</p>
             <h2>Highest</h2>
-            <p id="highest">N/A</p>
+            <p id="highest">$0</p>
         </div>
 
         <div>
@@ -125,5 +126,4 @@
 		</a>
 	
 	</footer>
-
 </body>

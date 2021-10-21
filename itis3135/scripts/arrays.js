@@ -2,6 +2,7 @@ const person = ["Will Bettleheim", "Joe Goldberg", "Beck S.", "Love Quinn"];
 const salaries = [50000, 80000, 120000, 43000];
 const merged = [];
 
+
 for(var i =0; i< person.length; i++){
     merged.push([person[i],salaries[i]]);
 }
@@ -37,5 +38,4 @@ function displaySalary(){
        }
     }
 
-    console.log(merged);
 }
