@@ -44,7 +44,7 @@ figure {
 button {
 	position: relative;
 	margin: 5px;
-	background-color: yellow;
+	background-color: #E9C46A;
 	color: black;
 	animation-name: move;
 	animation-duration: 3s;
@@ -66,13 +66,13 @@ button {
   }
 
 input[type=text] {
-	background-color: yellow;
+	background-color: #E9C46A;
 	border: 2px solid black;
 	margin: 0px 0px 5px 0px;
 }	
 
 input[type=email] {
-	background-color: yellow;
+	background-color: #E9C46A;
 	border: 2px solid black;
 	margin: 0px 0px 5px 0px;
 }	
