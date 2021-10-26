@@ -43,7 +43,6 @@ figure {
 
 button {
 	position: relative;
-	margin: 5px;
 	background-color: #E9C46A;
 	color: black;
 	animation-name: move;
@@ -63,7 +62,7 @@ button {
     100% {
       left: 0px;
     }
-  }
+}
 
 input[type=text] {
 	background-color: #E9C46A;
