@@ -45,7 +45,7 @@ th {
   text-align: left;
   background-color:#262626;
  
-  color:black;
+  color:#44BB5C;
 }
 
 table.center {
@@ -92,4 +92,7 @@ abbr {
   cursor: pointer;
 }
 
-
+button{
+  color: #000000;
+  background-color: #44BB5C;
+}
