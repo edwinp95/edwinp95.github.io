@@ -3,12 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="styles/default.css" rel="stylesheet" type="text/css" >
-	<title>Introduction</title>
+	<title>Slideshow</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="scripts/slideshow.js"></script>
 </head>
+
 <body>
     <header>
         <h1>Edwin Whalen -- ITIS3135</h1>
     </header>
+
 	<nav>
 		<a href="introduction.html">Introduction</a> 
         ||
@@ -29,11 +33,37 @@
 		<a href="project_rand.html">Project</a>
         ||
         <a href="jqslideshow.html">Slideshow</a>
-
 	</nav>	
 
     <main>
+		<h2>JQ Slideshow</h2>
+        <div class="container">
+            
+            <div class="slider-outer">
+                <img src="images/arrow-left.png" class="prev" alt="Prev">
 
+                <div class="slider-inner">
+                    <img src="images/projectImages/af 1 resize.png" class="active">
+                    <img src="images/projectImages/af3.png">
+                    <img src="images/projectImages/anita redesign.png">
+                    <img src="images/projectImages/blue side.png">
+                    <img src="images/projectImages/gaze.png">
+                    <img src="images/projectImages/jinnie wo lyricpng.png">
+
+                </div>
+                <img src="images/arrow-right.png" class="next" alt="Next">
+            </div>
+        </div>
+
+
+        <div class="gallery">
+            <a href="images/projectImages/af 1 resize.png"><img src="images/projectImages/af 1 resize.png"></a>
+            <a href="images/projectImages/af3.png"><img src="images/projectImages/af3.png"></a>
+            <a href="images/projectImages/anita redesign.png"><img src="images/projectImages/anita redesign.png"></a>
+            <a href="images/projectImages/blue side.png"><img src="images/projectImages/blue side.png"></a>
+            <a href="images/projectImages/gaze.png"><img src="images/projectImages/gaze.png"></a>
+            <a href="images/projectImages/jinnie wo lyricpng.png"><img src="images/projectImages/jinnie wo lyricpng.png"></a>
+        </div> 
     </main>
     
     <footer>
@@ -57,7 +87,6 @@
 		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fewhalen%2Fitis3135%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
 			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
 		</a>
-	
 	</footer>
 </body>
 </html>
