@@ -129,15 +129,15 @@ ul{
 }
 
 .container{
-	width: 1000px;
-	height: 900px;
+	width: 1200px;
+	height: 1000px;
 	margin: 20px auto 0;
 	overflow: auto;
 }
 
 .slider-inner{
-	width: 960px;
-	height: 800px;
+	width: 1100px;
+	height: 900px;
 	position: relative;
 	overflow: hidden;
 	float: left;
@@ -150,8 +150,8 @@ ul{
 
 .slider-inner img.active{
 	display: inline-block;
-	width: 960px;
-	height: 800px;
+	width: 1100px;
+	height: 900px;
 }
 
 .prev,.next{
@@ -173,8 +173,8 @@ ul{
 }
 
 .slider-outer img{
-	width: 50px;
-	height: 30px;
+	width: 60px;
+	height: auto;
 }
 
 .gallery {
