@@ -119,3 +119,11 @@ figcaption {
 #results_table{
 	margin: 0 auto 0 auto;
 }
+
+.design h3{
+	text-align: left;
+}
+
+ul{
+	padding-left: 50px;
+}
