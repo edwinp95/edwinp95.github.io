@@ -1,7 +1,7 @@
 html{
 	min-height: 100%;
-	background: rgb(55,100,119);
-	background: linear-gradient(180deg, rgba(38,70,83,1) 60%, rgba(55,100,119,1) 100%);
+	background: rgb(32,60,64);
+	background: linear-gradient(180deg, rgba(32,60,64,1) 0%, rgba(13,25,28,1) 100%);
 }
 
 body {
@@ -20,7 +20,7 @@ header, footer {
 }
 
 main{
-	color:#39b9aa;
+	color:#E9C46A;
 }
 
 .smaller-image {
@@ -36,7 +36,7 @@ nav, figure, h2, h3 {
 }
 
 a{
-	color: #F4A261;
+	color: #E9C46A;
 	text-decoration: none;
 }
 
@@ -46,13 +46,13 @@ th, td {
 }
 
 table tr:nth-child(even) {
-	background-color: #F4A261;
+	background-color: #E9C46A;
 	color: black; 
 }
 
 thead {
 	color: black;
-	background-color: #F4A261; 
+	background-color: #E9C46A; 
 }
 
 figcaption {
