@@ -12,13 +12,20 @@ body {
 	font-size: 20px;
 }
 
-header, footer {
+header {
 	text-align : center;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	color : #E9C46A;
 	font-weight : bold;
 }
 
+footer{
+	text-align: center;
+}
+
+footer p{
+	color: #E9C46A;
+}
 main{
 	color:#E9C46A;
 }
