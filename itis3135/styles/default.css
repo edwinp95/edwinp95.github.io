@@ -37,9 +37,15 @@ main{
 	box-shadow: 1px 1px 2px 1px black;
 }
 
-nav, figure, h2, h3 {
+figure, h2, h3 {
 	text-align : center;
-	margin: 15px;
+	margin: 30px;
+}
+
+nav{
+	text-align : center;
+	margin: 30px;
+	border: 2px dotted black;
 }
 
 a{
