@@ -1,20 +1,23 @@
-$(document).ready(function(){
-    $('.next').on('click', function(){
-        var currentImg = $('.active');
-        var nextImg = currentImg.next();
-
-        if(nextImg.length){
-            currentImg.removeClass('active').css('z-index', -10);
-            nextImg.addClass('active').css('z-index', 10);
-        }
+$(document).ready(function() {
+    // preload images
+    $("#image_list a").each(function() {
+    var swappedImage = new Image();
+    swappedImage.src = $(this).attr("href");
     });
-    $('.prev').on('click', function(){
-        var currentImg = $('.active');
-        var prevImg = currentImg.prev();
-
-        if(prevImg.length){
-            currentImg.removeClass('active').css('z-index', -10);
-            prevImg.addClass('active').css('z-index', 10);
-        }
-    });
-});
+    // set up event handlers for links
+    $("#image_list a").click(function(evt) {
+    // swap image
+    var imageURL = $(this).attr("href");
+    $("#main_image").attr("src", imageURL);
+   
+    //swap caption
+    var caption = $(this).attr("title");
+    $("#caption").text(caption);
+   
+    // cancel the default action of the link
+    evt.preventDefault(); // jQuery cross-browser method
+    }); // end click
+    // move focus to first thumbnail
+    $("li:first-child a").focus();
+   }); // end ready
+   
