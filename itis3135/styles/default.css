@@ -80,12 +80,14 @@ figcaption {
 	padding: 16px 8px;
 	font-size: 25px;
 	background: #39b9aa;
+	color: black;
 	border: 1px solid black;
 	text-align:right;
 }
 .buttons{
 	display: grid;
 	background: #39b9aa;
+	color: black;
 	border: 1px solid black;
 	text-align: center;
 	font-size: 20px;
