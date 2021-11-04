@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Eager Wolf Enterprises</title>
+    <!--https://coolors.co/463f3a-968d88-bcb8b1-->
+    <link href="styles/default.css" rel="stylesheet">
+    <script src="scripts/w3.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="scripts/contact.js"></script>
+
+</head>
+
+<body>
+    <div w3-include-html="components/header.html"></div>
+
+
+    <main>
+        <h2>Contact</h2>
+        <div id="contact-form">
+            <form action="#">
+				
+			<label>
+				<input id="name" type="text" placeholder="Name" size="50" required><br>
+			</label>
+			<label>
+				<input id="phone" type="text" placeholder="Phone" size="50" required><br>
+			</label>
+			<label>
+				<input id="email" type="email" placeholder="Email" size="50" required><br>
+			</label>
+			
+			<label for="Interested"><input id="Interested" type="checkbox" name="Decision" > Email Me!</label>
+			<label for="NotInterested"><input id="NotInterested" type="checkbox" name="Decision" > Text Me!</label>
+			<p>How did you hear about us??</p>
+
+			<button type="submit" id="submitBtn">Submit</button>
+			
+		</form>
+        </div>
+        <p id="contact-output"></p>
+    </main>
+
+    
+    <div w3-include-html="components/footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+</body>
