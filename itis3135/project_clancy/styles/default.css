@@ -3,11 +3,17 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
+body{
+	text-shadow: .5px .5px 1px black;
+}
+
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 50px;
 }
 
 /* Caption text */
@@ -37,7 +43,7 @@ img {vertical-align: middle;}
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
+  display: hidden;
   transition: background-color 0.6s ease;
 }
 
@@ -71,7 +77,7 @@ img {vertical-align: middle;}
     display: flex;
 }
 .container nav{
-    line-height: 70px;
+    line-height: 90px;
 }
 .container header{
     margin-left: 30px;
@@ -83,4 +89,8 @@ img {vertical-align: middle;}
 a{
     text-decoration: none;
     color: #717171;
+}
+
+main{
+  text-align: right;
 }
