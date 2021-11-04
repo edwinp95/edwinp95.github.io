@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<link href="styles/default.css" rel="stylesheet" type="text/css" >
 	<title>Calculator</title>
+	<script src="scripts/w3.js"></script>
+
 </head>
 
 <body>
@@ -11,27 +13,8 @@
         <h1>Edwin Whalen -- ITIS3135</h1>
     </header>
 
-	<nav>
-		<a href="introduction.html">Introduction</a> 
-        |
-		<a href="contract.html">Contract</a>
-		|
-		<a href="tables.html">Tables</a>
-		|
-		<a href="forms.html">Forms</a>
-        |
-        <a href="website_evaluations.html">CRAP</a>
-		|
-        <a href="polygons.html">Polygons</a>
-		|
-		<a href="calculator_try.html">Calculator</a>
-		|
-		<a href="arrays.html">Arrays</a>
-		|
-		<a href="project_rand.html">Project</a>
-		|
-        <a href="jqslideshow.html">Slideshow</a>
-	</nav>
+	<div w3-include-html="components/nav.html"></div>
+
 	<main><h2>Calculator</h2></main>
 	<div id="container">
 		<div id="display"></div>
@@ -82,4 +65,7 @@
 	
 	</footer>
 	<script src="scripts/calculator_try.js"></script>
+	<script>
+        w3.includeHTML();
+    </script>
 </body>
