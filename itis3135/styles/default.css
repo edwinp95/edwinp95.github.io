@@ -69,10 +69,6 @@ figcaption {
 	text-align: center;
 }
 
-.right, .left{
-	text-align: center;
-}
-
 #container{
 	max-width: 400px;
 	margin: 0 auto 0 auto;
